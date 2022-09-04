@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="210dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20px"
+        android:hint="First name"
+        android:id="@+id/fname"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="210dp"
+        android:layout_margin="20px"
+        android:hint="Last name"
+        android:id="@+id/lname"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="210dp"
+        android:layout_margin="20px"
+        android:hint="Email Id"
+        android:id="@+id/email"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="20dp"
+        android:id="@+id/subbtn"
+        android:onClick="submitme"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First name"
+        android:padding="20px"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:id="@+id/fnamev"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:padding="20px"
+        android:textSize="20dp"
+        android:id="@+id/lnamev"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Id"
+        android:padding="20px"
+        android:textSize="20dp"
+        android:id="@+id/mailv"
+        />
+
+  </LinearLayout>
